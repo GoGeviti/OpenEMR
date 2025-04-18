@@ -166,7 +166,7 @@ class Bootstrap
         $menuItem->label = xlt("HIPAAi Chat");
         // TODO: pull the install location into a constant into the codebase so if OpenEMR changes this location it
         // doesn't break any modules.
-        $menuItem->url = "/interface/modules/custom_modules/oe-module-hipaai-chat/public/chat-interface.php";
+        $menuItem->url = "/interface/modules/custom_modules/oe-module-hipaai-chat/public/index.php";
         $menuItem->children = [];
 
         /**
