@@ -31,6 +31,7 @@ use OpenEMR\Events\RestApiExtend\RestApiCreateEvent;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Twig\Error\LoaderError;
 use Twig\Loader\FilesystemLoader;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 // we import our own classes here.. although this use statement is unnecessary it forces the autoloader to be tested.
 // Use OpenEMR\Modules\HipaaiChat\CustomSkeletonRestController; // Removed as it's part of skeleton
